@@ -19,7 +19,7 @@ services:
           "CMD",
           "node",
           "-e",
-          "fetch('http://studio:3000/api/platform/profile').then((r) => {if (r.status !== 200) throw new Error(r.status)})"
+          "require('http').get('http://213.136.78.130:3000/api/profile', (r) => {if (r.statusCode !== 200) throw new Error(r.statusCode)})"
         ]
       timeout: 10s
       interval: 5s
