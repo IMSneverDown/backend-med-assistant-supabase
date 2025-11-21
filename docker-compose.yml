@@ -473,9 +473,7 @@ services:
         ]
       timeout: 5s
       interval: 5s
-      retries: 3
-    ports:
-     - ${STUDIO_PORT}:3000/tcp 
+      retries: 3 
     environment:
       LOGFLARE_PUBLIC_ACCESS_TOKEN: ${LOGFLARE_PUBLIC_ACCESS_TOKEN}
     command:
