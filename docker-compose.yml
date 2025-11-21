@@ -472,7 +472,7 @@ services:
           "http://213.136.78.130/:9001/health"
         ]
       timeout: 5s
-      interval: 5s-
+      interval: 5s
       retries: 3 
     environment:
       LOGFLARE_PUBLIC_ACCESS_TOKEN: ${LOGFLARE_PUBLIC_ACCESS_TOKEN}
