@@ -469,7 +469,7 @@ services:
           "--no-verbose",
           "--tries=1",
           "--spider",
-          "http://213.136.78.130/:9001/health"
+          "http://vector:9001/health"
         ]
       timeout: 5s
       interval: 5s
