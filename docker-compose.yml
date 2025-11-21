@@ -398,7 +398,7 @@ services:
         "-U",
         "postgres",
         "-h",
-        "http://213.136.78.130"
+        "localhost"
         ]
       interval: 5s
       timeout: 5s
